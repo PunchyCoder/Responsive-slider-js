@@ -1,0 +1,17 @@
+body {
+	font-family: sans-serif;}
+.slide-viewer {
+	position: relative;
+	overflow: hidden;
+	height: 300px;}
+.slide-group {
+	width: 100%;
+	height: 100%;
+	position: relative;}
+.slide {
+	width: 100%;
+	height: 100%;
+	display: hidden;
+	position: absolute;}
+.slide:first-child {
+	display: block;}
